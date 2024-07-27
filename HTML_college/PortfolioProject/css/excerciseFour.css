@@ -1,0 +1,33 @@
+#navbar {
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* align-content: center; */
+}
+
+#content {
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin-top: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#subContent {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}

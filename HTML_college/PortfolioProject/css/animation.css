@@ -1,0 +1,17 @@
+div {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: cadetblue;
+    animation-name: colorAnimate;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    /* animation-timing-function: ease-in-out; */
+    animation-iteration-count: infinite;
+    /* animation-iteration-count: 5; */
+
+}
+
+@keyframes colorAnimate {
+    from {background-color: cadetblue;}
+    to {background-color: burlywood;}
+}

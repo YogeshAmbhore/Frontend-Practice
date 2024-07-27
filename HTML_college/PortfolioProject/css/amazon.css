@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #F2F2F2; */
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    border: none;
+    padding-right: 13px;
+    background-color: #000000;
+
+    
+}
+
+.logo {
+    background-image: url('/PortfolioProject/css/imageedit.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    border: none;
+}
+
+.custom-border {
+    border: 1px solid transparent;
+    /* height: 45px;
+    padding: 3px; */
+}
+
+.custom-border:hover {
+    border: 1px solid white;
+}
+
+
+/* address css */
+.nav-address {
+   padding: 8px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.address-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;   
+}
+
+/* Search bar css */
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+.search-box:hover {
+    border: 2px solid sandybrown;
+}
+
+
+.search-select {
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+}
+
+.search-input {
+    height: 38px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-icon {
+    border: 2px solid;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+    /* background-color: #FEBD69; */
+    background-color: #ff9900;
+    color: #000000;
+}
+
+
+/* signin css */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-signin {
+    padding: 8px;
+}
+
+.nav-return {
+    padding: 8px;
+}
+
+
+/* Country Details CSS */
+
+.nav-country {
+    display: flex;
+    align-items: center;
+    /* padding-top: 20px; */
+    width: 90px;
+    justify-content: center; 
+    padding: 10px;
+}
+
+.country-flag {
+    height: 25px;
+    width: 25px;
+    /* border: 2px solid salmon; */
+    /* background-image: url('/PortfolioProject/css/Flag_of_India.png');
+    background-size: cover; */
+    margin-right: 8px;
+    padding-top: 4px;
+}
+
+.country-flag img {
+    height: 25px;
+    width: 30px;
+}
+
+.country-options {
+    padding-top: 10px;
+
+}
+
+.country-options select:focus {
+    outline: none;
+}
+
+/* Cart CSS */
+
+.nav-cart i {
+    font-size: 35px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 7px;
+}
+
+/* Menu Panel CSS */
+
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panel-all {
+    font-size: 0.95rem;
+    color: white;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.panel-ops {
+    display: flex;
+    width: 70%;
+}
+
+.ops {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 0.85rem;
+    padding: 8px;
+}
+
+.panel-offer-text {
+    font-size: 0.95rem;
+    padding: 7px;
+
+}
+
+
+/* Hero Section CSS */
+.hero-section {
+    background-image: url('/PortfolioProject/css/homepage_hero.jpg');
+    height: 320px;
+    /* width: 200px; */
+    background-size: cover;
+    background-color: #dad9df;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* #dad9df
+rgba(218,217,223,255) */
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+}
+
+.hero-message a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* shop section css */
+
+.shop-section {
+    background-color: #dad9df;
+    padding: 20px;
+}
+
+.section-one {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    margin-top: 20px;
+    /* margin: 0; */
+
+}
+
+.box {
+    height: 370px;
+    width: 23%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+    background-color: white;
+}
+
+.box a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-bottom: 6px;
+
+}
+
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: transparent;
+    padding: 0;
+    /* margin: 0; */
+}
+
+.sub-section {
+    height: 50%;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+
+.sub-section-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-section-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.sub-section-margin-top {
+    margin-top: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 40px; */
+}
+
+
+.item-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+.item-bottom-margin {
+    margin-bottom: 13px;
+}
+
+.item {
+    height: 120px;
+    width: 42%;
+    /* border: 2px solid black; */
+
+}
+
+.item1 {
+    background-image: url('/PortfolioProject/css/homeOne.jpg');
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url('/PortfolioProject/css/homeTwo.jpg');
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url('/PortfolioProject/css/homeThree.jpg');
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url('/PortfolioProject/css/homeFour.jpg');
+    height: 90px;
+    width: 100%;
+    background-size: cover;
+}
+
+.item p {
+    font-size: 0.80rem;
+}
+
+.box-heading {
+    font-size: 1.4rem;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 8px;
+}
+
+.sign-in-button {
+    background-color: #ff9900;
+    height: 18%;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sub-section p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* section two css */
+
+.section-two {
+    width: 96%;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+.section-two-content {
+    display: flex;
+
+}
+
+.section-two-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.section-two a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 2px;
+    margin-left: 3px;
+
+}
+
+.section-two-items {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-two-item {
+    height: 150px;
+    width: 180px;
+    /* border: 2px solid blue; */
+}
+
+
+.section-two-item-one {
+    background-image: url('/PortfolioProject/css/itemOne.jpg');
+    background-size: cover;
+
+}
+
+.section-two-item-two {
+    background-image: url('/PortfolioProject/css/itemTwo.jpg');
+    background-size: cover;
+
+}
+
+.section-two-item-three {
+    background-image: url('/PortfolioProject/css/itemThree.jpg');
+    background-size: cover;
+
+}
+
+.section-two-item-four {
+    background-image: url('/PortfolioProject/css/itemFour.jpg');
+    background-size: cover;
+
+}
+
+.section-two-item-five {
+    background-image: url('/PortfolioProject/css/itemFive.jpg');
+    background-size: cover;
+
+}
+
+hr{
+    margin-top: 30px;
+}
+
+.login-message-section {
+    /* width: 90%; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.additiona-styling {
+    height: 30px;
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.login-message {
+    font-size: 0.85rem;
+}
+
+.login-message a {
+    text-decoration: none;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    /* width: 50px; */
+    height: 40px;
+    background-color: #313f50;
+    color: white;
+}
+
+
+.footer-content {
+    height: 500px;
+    background-color: #232f3e;
+}
+
+
+.footer-sections {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding-top: 60px;
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-sections p{
+    margin: 15px;
+}
+
+.footer-sections p a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer-sections p a:hover{
+    text-decoration: underline;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 80px;
+    width: 150px;
+}
+
+.footer-creds {
+    height: 50px;
+    background-color: #0c1118;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-credits p a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+
+.footer-creds p {
+    font-size: 0.85rem;
+    color: white;
+    margin-top: 4px;
+}

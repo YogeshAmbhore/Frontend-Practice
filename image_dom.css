@@ -1,0 +1,13 @@
+.demo {
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 3px;
+    
+}
+
+.sample {
+    height: 300px;
+    width: 300px;
+}

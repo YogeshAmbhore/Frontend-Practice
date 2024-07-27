@@ -1,0 +1,25 @@
+/* body {
+    background-color:cornsilk;
+    padding: auto;
+}
+
+#heading {
+    color:coral;
+}
+
+.heading2 {
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+div {
+    border: 2px solid black;
+    height: 150px;
+    width: fit-content;
+    background-color: aquamarine;
+}
+
+p {
+    margin: 4px;
+    padding: 4px;
+}

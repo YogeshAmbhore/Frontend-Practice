@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #232f3e;
+    height: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: #95ccff;
+}
+
+.nav button {
+    background-color: white;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    /* color: white; */
+    font-size: 16px;
+    /* font-weight: 700; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav button:hover{
+    background-color: #2166b4;
+    color: white;
+}
+
+.color-box {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#indianred {
+    background-color: indianred;
+}

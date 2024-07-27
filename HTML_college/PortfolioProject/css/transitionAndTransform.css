@@ -1,0 +1,36 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(10);
+    transition-delay: 1s; */
+    /* transform: rotate(180deg); */
+    /* rotate: z 90deg; */
+    /* transform: scale(3, 1); */
+    position: relative;
+    top: 100px;
+    left: 200px;
+    transition: all 2s ease-in-out;
+
+}
+
+div:hover {
+    /* height: 300px;
+    width: 300px; */
+    background-color: indianred;
+    font-size: 20px;
+    /* transform: scaleX(2); */
+    /* transform: translateX(50px); */
+    /* transform: translate(100px, 150px); */
+    transform: skew(30deg);
+}
+
+div:active {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 2px solid black;
+    border-radius: 3px;
+}

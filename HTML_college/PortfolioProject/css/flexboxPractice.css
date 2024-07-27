@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 2px solid brown;
+    margin: 2px;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemClass {
+    height: 100px;
+    width: 100px;
+}
+
+#sidePanel {
+    padding: 2px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    height: 80%;
+    /* background-color: coral; */
+}
+
+/* #sidePanel {
+    padding: 2px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  Centers child elements vertically 
+    position: absolute;
+    left: 10px;
+    background-color: coral;
+    height: 80%;  Make sure the side panel takes the full height of the viewport 
+} */
+
+#contentSection {
+    position: absolute;
+    right: 10px;
+    width: 75%;
+    height: 80%;
+    padding: 10px;
+    border: none;
+
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 98%;
+    position: relative;
+    height: 80%;
+    top: 90px;
+    padding: 5px;
+
+}
+
+#heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 97%;
+    position: absolute;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+.other {
+    height: 150px;
+    background-color: rgb(238, 238, 142);
+    width: 150px;
+    border: 3px double red;
+    /* border-radius: 50%; */
+    /* border-radius: 20px; */
+    /* text-align: center; */
+    /* align-content: center; */
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+h1 {
+    width: 200px;
+    /* height: 20px; */
+    height: 70px;
+    text-align: center;
+    border: 2px double red;
+    /* padding: 3px; */
+    background-color: navy;
+    color: bisque;
+    align-content: center;
+}
+
+p {
+    border-width: 5px;
+    border-style: double;
+    border-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    /* text-align: center; */
+
+}
+
+#prac {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
